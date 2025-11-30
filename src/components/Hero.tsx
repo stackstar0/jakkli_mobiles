@@ -70,7 +70,7 @@ const Hero = () => {
             className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 max-w-4xl mx-auto px-4"
           >
             {[
-              { icon: Award, text: "5+ Years Experience" },
+              { icon: Award, text: "15+ Years Experience" },
               { icon: ShieldCheck, text: "Certified Technicians" },
               { icon: Smartphone, text: "100% Quality Guarantee" },
             ].map((item, index) => (
