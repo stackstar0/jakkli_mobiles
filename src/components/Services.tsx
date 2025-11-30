@@ -109,10 +109,10 @@ const Services = () => {
           transition={{ duration: 0.6 }}
           className="bg-card rounded-2xl p-8 md:p-12 mb-12 border border-border"
         >
-        <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-center">
-          <div className="px-4 md:px-0">
-            <h3 className="text-2xl md:text-3xl font-display font-bold mb-3 md:mb-4 text-gradient-primary">Meet the Owner</h3>
-            <h4 className="text-lg md:text-xl font-semibold mb-3 md:mb-4">Shamsuddin Jakkli</h4>
+          <div className="grid md:grid-cols-2 gap-6 md:gap-8 items-center">
+            <div className="px-4 md:px-0">
+              <h3 className="text-2xl md:text-3xl font-display font-bold mb-3 md:mb-4 text-gradient-primary">Meet the Owner</h3>
+              <h4 className="text-lg md:text-xl font-semibold mb-3 md:mb-4">Shamsuddin Jakkli</h4>
               <p className="text-muted-foreground mb-4">
                 With over 5+ years of experience in the mobile industry, Shamsuddin Jakkli has built Jakkli Mobiles
                 into a trusted name in Gadag Betageri. His commitment to quality service and customer satisfaction
