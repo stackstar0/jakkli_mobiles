@@ -13,7 +13,7 @@ const Footer = () => {
                 <Smartphone className="w-5 h-5 text-primary-foreground" />
               </div>
               <span className="text-lg font-display font-bold text-gradient-primary">
-                MobileMart
+                Jakkli Mobiles
               </span>
             </div>
             <p className="text-sm text-muted-foreground">
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {currentYear} MobileMart. All rights reserved. | Owner: Shamsuddin Jakkli | Gadag Betageri, Karnataka</p>
+          <p>&copy; {currentYear} Jakkli Mobiles. All rights reserved. | Owner: Shamsuddin Jakkli | Gadag Betageri, Karnataka</p>
         </div>
       </div>
     </footer>

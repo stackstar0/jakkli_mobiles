@@ -30,7 +30,7 @@ const Navbar = () => {
               <Smartphone className="w-6 h-6 text-primary-foreground" />
             </div>
             <span className="text-xl font-display font-bold text-gradient-primary">
-              MobileMart
+              Jakkli Mobiles
             </span>
           </div>
 

@@ -1,9 +1,9 @@
 {
-  "name": "mobilemart-website",
+  "name": "jakkli-mobiles-website",
   "private": false,
   "version": "1.0.0",
-  "description": "MobileMart - Mobile Sales & Repair Services website for Gadag Betageri, Karnataka",
-  "homepage": "https://mobilemart-gadag.netlify.app",
+  "description": "Jakkli Mobiles - Mobile Sales & Repair Services website for Gadag Betageri, Karnataka",
+  "homepage": "https://jakkli-mobiles.netlify.app",
   "author": "Shamsuddin Jakkli <shamsuddinjakkli@gmail.com>",
   "type": "module",
   "scripts": {

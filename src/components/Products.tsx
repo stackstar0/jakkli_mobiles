@@ -89,7 +89,7 @@ const Products = () => {
           >
             <img
               src={shopImage}
-              alt="MobileMart shop exterior"
+              alt="Jakkli Mobiles shop exterior"
               className="w-full h-80 object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-background/90 to-transparent flex items-end p-8">

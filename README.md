@@ -1,6 +1,6 @@
-# MobileMart - Mobile Sales & Repair Services
+# Jakkli Mobiles - Mobile Sales & Repair Services
 
-A modern, responsive website for MobileMart mobile phone sales and repair services in Gadag Betageri, Karnataka.
+A modern, responsive website for Jakkli Mobiles mobile phone sales and repair services in Gadag Betageri, Karnataka.
 
 **Owner:** Shamsuddin Jakkli
 **Contact:** shamsuddinjakkli@gmail.com | +91 78996 63920
@@ -64,14 +64,14 @@ npm run build
 
 ## Contact Information
 
-**MobileMart**
-Owner: Shamsuddin Jakkli
-📧 shamsuddinjakkli@gmail.com
-📱 +91 78996 63920
+**Jakkli Mobiles**  
+Owner: Shamsuddin Jakkli  
+📧 shamsuddinjakkli@gmail.com  
+📱 +91 78996 63920  
 📍 Gadag Betageri, Karnataka, India
 
 **Business Hours:** Monday - Saturday: 9:00 AM - 8:00 PM
 
 ---
 
-© 2024 MobileMart. All rights reserved. | Owner: Shamsuddin Jakkli | Gadag Betageri, Karnataka
+© 2024 Jakkli Mobiles. All rights reserved. | Owner: Shamsuddin Jakkli | Gadag Betageri, Karnataka
