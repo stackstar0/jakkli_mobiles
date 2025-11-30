@@ -64,10 +64,10 @@ npm run build
 
 ## Contact Information
 
-**Jakkli Mobiles**  
-Owner: Shamsuddin Jakkli  
-📧 shamsuddinjakkli@gmail.com  
-📱 +91 78996 63920  
+**Jakkli Mobiles**
+Owner: Shamsuddin Jakkli
+📧 shamsuddinjakkli@gmail.com
+📱 +91 78996 63920
 📍 Gadag Betageri, Karnataka, India
 
 **Business Hours:** Monday - Saturday: 9:00 AM - 8:00 PM

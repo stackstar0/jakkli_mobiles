@@ -114,8 +114,8 @@ const Services = () => {
               <h3 className="text-3xl font-display font-bold mb-4 text-gradient-primary">Meet the Owner</h3>
               <h4 className="text-xl font-semibold mb-4">Shamsuddin Jakkli</h4>
               <p className="text-muted-foreground mb-4">
-                With over 5+ years of experience in the mobile industry, Shamsuddin Jakkli has built Jakkli Mobiles 
-                into a trusted name in Gadag Betageri. His commitment to quality service and customer satisfaction 
+                With over 5+ years of experience in the mobile industry, Shamsuddin Jakkli has built Jakkli Mobiles
+                into a trusted name in Gadag Betageri. His commitment to quality service and customer satisfaction
                 has made us the go-to destination for mobile sales and repairs.
               </p>
               <p className="text-muted-foreground">
