@@ -52,7 +52,7 @@ const Products = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mb-8 md:mb-12 px-4 md:px-0">
           {categories.map((category, index) => (
             <motion.div
               key={index}
@@ -62,7 +62,7 @@ const Products = () => {
               transition={{ duration: 0.6, delay: index * 0.1 }}
             >
               <Card className="h-full bg-card hover:bg-card/80 transition-all hover:shadow-glow border-border group cursor-pointer">
-                <CardContent className="p-8">
+                <CardContent className="p-4 md:p-8">
                   <div className="flex items-start justify-between mb-4">
                     <div className="p-3 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">
                       <category.icon className="w-8 h-8 text-primary" />

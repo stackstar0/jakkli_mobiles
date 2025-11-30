@@ -53,13 +53,13 @@ const Contact = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8 mb-12">
+        <div className="grid md:grid-cols-2 gap-6 md:gap-8 mb-8 md:mb-12">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="space-y-6"
+            className="space-y-4 md:space-y-6"
           >
             {contactInfo.map((info, index) => (
               <Card key={index} className="bg-card border-border hover:shadow-glow transition-all">
@@ -122,22 +122,22 @@ const Contact = () => {
               <p className="text-primary-foreground/90 mb-6 max-w-2xl mx-auto">
                 Visit our store today or call us for expert advice on choosing the perfect phone for your needs
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center px-4">
                 <Button
                   size="lg"
                   onClick={() => window.open('https://maps.app.goo.gl/uzoNVnyEBgRP6P5r7', '_blank')}
-                  className="bg-background text-foreground hover:bg-background/90"
+                  className="bg-background text-foreground hover:bg-background/90 min-h-[48px] w-full sm:w-auto"
                 >
-                  <MapPin className="mr-2" />
+                  <MapPin className="mr-2 w-5 h-5" />
                   Get Directions
                 </Button>
                 <Button
                   size="lg"
                   variant="outline"
                   onClick={() => window.open('tel:+917899663920', '_blank')}
-                  className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-primary font-semibold"
+                  className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-primary font-semibold min-h-[48px] w-full sm:w-auto"
                 >
-                  <Phone className="mr-2" />
+                  <Phone className="mr-2 w-5 h-5" />
                   Call Now
                 </Button>
               </div>

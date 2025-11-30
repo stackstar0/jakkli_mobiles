@@ -52,10 +52,11 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-foreground"
+            className="md:hidden text-foreground p-2 rounded-md hover:bg-secondary/20 min-h-[44px] min-w-[44px] flex items-center justify-center"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
           >
-            {mobileMenuOpen ? <X /> : <Menu />}
+            {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
 
@@ -68,17 +69,17 @@ const Navbar = () => {
               exit={{ opacity: 0, height: 0 }}
               className="md:hidden overflow-hidden"
             >
-              <div className="pt-4 pb-2 flex flex-col gap-4">
+              <div className="pt-4 pb-4 flex flex-col gap-2 px-2">
                 {navItems.map((item) => (
                   <button
                     key={item.id}
                     onClick={() => scrollToSection(item.id)}
-                    className="text-left text-foreground hover:text-primary transition-colors py-2"
+                    className="text-left text-foreground hover:text-primary transition-colors py-3 px-2 w-full min-h-[48px] rounded-md hover:bg-secondary/20"
                   >
                     {item.label}
                   </button>
                 ))}
-                <Button onClick={() => scrollToSection('contact')} className="bg-gradient-accent text-accent-foreground hover:opacity-90 w-full">
+                <Button onClick={() => scrollToSection('contact')} className="bg-gradient-accent text-accent-foreground hover:opacity-90 w-full mt-2 min-h-[48px]">
                   Get Quote
                 </Button>
               </div>

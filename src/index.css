@@ -142,4 +142,53 @@ All colors MUST be HSL.
       transform: translateY(0);
     }
   }
+
+  /* Mobile optimizations */
+  @media (max-width: 768px) {
+    /* Improve touch targets */
+    button, a, [role="button"] {
+      min-height: 44px;
+      min-width: 44px;
+    }
+    
+    /* Better text scaling for mobile */
+    html {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+    
+    /* Prevent horizontal scroll on small screens */
+    body {
+      overflow-x: hidden;
+    }
+    
+    /* Improve form inputs on mobile */
+    input, textarea, select {
+      font-size: 16px; /* Prevents zoom on iOS */
+    }
+    
+    /* Better spacing for mobile cards */
+    .mobile-card-spacing {
+      margin: 0.75rem 0;
+      padding: 0.75rem;
+    }
+  }
+  
+  /* Touch-friendly hover states */
+  @media (hover: hover) and (pointer: fine) {
+    /* Desktop hover styles */
+    .hover-desktop:hover {
+      transform: translateY(-2px);
+      transition: transform 0.2s ease;
+    }
+  }
+  
+  /* Mobile-first focus styles */
+  button:focus-visible, 
+  a:focus-visible,
+  [role="button"]:focus-visible {
+    outline: 2px solid hsl(var(--primary));
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
 }
